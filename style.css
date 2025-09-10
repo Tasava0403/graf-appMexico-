@@ -1,0 +1,39 @@
+/* Estilos de la bandera */
+.flag {
+  display: flex;
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stripe {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stripe-green {
+  background-color: rgb(0, 128, 0);
+}
+
+.stripe-white {
+  background-color: white;
+}
+
+.stripe-red {
+  background-color: rgb(255, 0, 0);
+}
+
+.escudo {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+.badge {
+  font-size: 1rem;
+  border-radius: 6px;
+}
